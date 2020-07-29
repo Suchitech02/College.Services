@@ -30,6 +30,7 @@ namespace College.Services
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            var connectionString = Configuration[Constants.ConnectionString];
             services.AddDbContext<CollegeDbContext>(o => o.UseSqlServer(connectionString));
 
             // Application Services
