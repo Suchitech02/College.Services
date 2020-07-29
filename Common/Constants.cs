@@ -1,6 +1,6 @@
 namespace College.Services.Common
 {
-    public class Contants
+    public class Constants
     {
         
     }
