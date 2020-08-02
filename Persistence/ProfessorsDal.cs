@@ -24,7 +24,7 @@ namespace College.Services.Persistence
         }
 
 
-        public Professor GetProfessorById(Guid id)
+        public Professor GetProfessorById(int id)
         {
             if (!_collegeDbContext.Professors.Any(record => record.ProfessorId == id))
             {
@@ -67,7 +67,7 @@ namespace College.Services.Persistence
         }
 
 
-        public bool DeleteProfessorById(Guid id)
+        public bool DeleteProfessorById(int id)
         {
             if (!_collegeDbContext.Professors.Any(record => record.ProfessorId == id))
             {

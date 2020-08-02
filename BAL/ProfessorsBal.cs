@@ -19,7 +19,7 @@ namespace College.Services.BAL
             return _professorsData.GetProfessors();
         }
 
-        public Professor GetProfessorById(Guid id)
+        public Professor GetProfessorById(int id)
         {
             return _professorsData.GetProfessorById(id);
         }
@@ -35,7 +35,7 @@ namespace College.Services.BAL
             return _professorsData.UpdateProfessor(professor);
         }
 
-        public bool DeleteProfessorById(Guid id)
+        public bool DeleteProfessorById(int id)
         {
             return _professorsData.DeleteProfessorById(id);
         }
