@@ -11,7 +11,7 @@ namespace College.Services.Entities
 
         public string Name { get; set; }
 
-        public DateTime Doj { get; set; }
+        public string Doj { get; set; }
 
         public string Teaches { get; set; }
 

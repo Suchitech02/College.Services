@@ -7,7 +7,7 @@ namespace College.Services.Entities
     public class Student
     {
         [Key]
-        public Guid StudentId { get; set; }
+        public int StudentId { get; set; }
 
         public string Name { get; set; }
 
