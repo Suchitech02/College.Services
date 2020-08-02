@@ -13,7 +13,7 @@ namespace College.Services.Entities
 
         public string RollNumber { get; set; }
 
-        public Guid ProfessorId { get; set; }
+        public int ProfessorId { get; set; }
 
         public decimal Fees { get; set; }
     }
